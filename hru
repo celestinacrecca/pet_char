@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+void main()
+{ 
+    char a,b,c;
+    printf("\nEnter your pet name:\t");
+    scanf("%c%c%c",&a,&b,&c);
+    printf("\nHow are you today %c%c%c \n", a,b,c);
+    
+}
